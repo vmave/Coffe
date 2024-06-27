@@ -1,0 +1,87 @@
+.letter {
+  display: inline-block;
+  margin-left: -15px;
+  font-size: 200px;
+  line-height: 200px;
+  position: relative;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  animation: slide 2s linear infinite;
+  background-size: auto 400px;
+  background-position: left 0px;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(102, 35, 69) 0px,
+    rgb(102, 35, 69) 100px,
+    black 100px,
+    rgb(102, 21, 16) 102px,
+    rgb(102, 21, 16) 130px,
+    black 130px,
+    rgb(39, 110, 151) 132px,
+    rgb(39, 110, 151) 180px,
+    black 180px,
+    rgb(175, 133, 45) 182px,
+    rgb(175, 133, 45) 200px,
+    black 200px,
+    rgb(102, 35, 69) 202px,
+    rgb(102, 35, 69) 240px,
+    black 240px,
+    rgb(102, 21, 16) 242px,
+    rgb(102, 21, 16) 300px,
+    black 300px,
+    rgb(39, 110, 151) 302px,
+    rgb(39, 110, 151) 350px,
+    black 350px,
+    rgb(175, 133, 45) 352px,
+    rgb(175, 133, 45) 398px,
+    black 399px,
+    black 400px
+  );
+}
+
+.letter:nth-child(odd) {
+  top: 30px;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(102, 35, 69) 0px,
+    rgb(102, 35, 69) 70px,
+    black 70px,
+    rgb(102, 21, 16) 72px,
+    rgb(102, 21, 16) 100px,
+    black 100px,
+    rgb(39, 110, 151) 102px,
+    rgb(39, 110, 151) 150px,
+    black 150px,
+    rgb(175, 133, 45) 152px,
+    rgb(175, 133, 45) 170px,
+    black 170px,
+    rgb(102, 35, 69) 172px,
+    rgb(102, 35, 69) 210px,
+    black 210px,
+    rgb(102, 21, 16) 212px,
+    rgb(102, 21, 16) 270px,
+    black 270px,
+    rgb(39, 110, 151) 272px,
+    rgb(39, 110, 151) 320px,
+    black 320px,
+    rgb(175, 133, 45) 322px,
+    rgb(175, 133, 45) 370px
+  );
+}
+
+@media only screen and (max-width: 675px) {
+  .letter {
+    font-size: 120px;
+    line-height: 100px;
+  }
+  .letter:nth-child(odd) {
+    top: 15px;
+  }
+}
+
+@keyframes slide {
+  100% {
+    background-position: left -400px;
+  }
+}
