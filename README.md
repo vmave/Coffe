@@ -5,8 +5,9 @@ It serves as a testament to my abilities and as a reference point for my skill s
 
 ## Core Tech Stack
 
-Backend: TypeScript, Nest.js, TypeORM, PostgreSQL, AWS.
-Frontend: TypeScript, React, Redux, Tailwind,
+**Backend:** TypeScript, Nest.js, TypeORM, PostgreSQL, AWS.
+
+**Frontend:** TypeScript, React, Redux, Tailwind.
 
 ## How to get started
 
