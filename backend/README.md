@@ -3,12 +3,12 @@
 ## ENV variables
 Create `.env` file with your AWS credentials to have access to the S3 bucket.
 If you don't have it just write me private message and I'll share it.
-'
+```
 AWS_ACCESS_KEY_ID=...
 AWS_SECRET_ACCESS_...
 AWS_REGION=eu-north-...
 AWS_S3_BUCKET_NAME=...
-'
+```
 ## Scripts
 
 The following scripts are here to help you get up and running in a development environment as quickly as possible.
